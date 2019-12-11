@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "TwitterIntent AutoCloseTab",
+    "version": "1.0",
+    "description": "When the tweet is completed, the tab is automatically closed.",
+    "permissions": [
+        "tabs"
+    ],
+
+    "background": {
+        "scripts": ["closetab.js"]
+    }
+}
